@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/*
+  Design tokens — estética premium de beleza/PMU.
+  Paleta: creme, nude/champagne, rosé/mauve e dourado, com texto em marrom profundo.
+*/
+@theme {
+  --color-cream: #faf6f1;
+  --color-sand: #f1e7dc;
+  --color-nude: #e7d3c1;
+  --color-rose: #c08497;
+  --color-rose-deep: #a4677a;
+  --color-gold: #c2a14a;
+  --color-ink: #2e2a27;
+  --color-ink-soft: #6b5f57;
+
+  --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-montserrat), system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+/* Sublinhado decorativo dourado para títulos de seção */
+.eyebrow {
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-rose-deep);
+}

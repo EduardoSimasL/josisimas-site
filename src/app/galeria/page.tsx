@@ -10,7 +10,7 @@ import CTA from "@/components/CTA";
 
 export const metadata: Metadata = {
   title: "Galeria de trabalhos",
-  description: `Veja trabalhos de micropigmentação e maquiagem permanente de ${BUSINESS_NAME}.`,
+  description: `Veja trabalhos de micropigmentação e estética de ${BUSINESS_NAME}.`,
   alternates: { canonical: "/galeria" },
 };
 

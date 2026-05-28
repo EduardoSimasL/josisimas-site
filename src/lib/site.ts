@@ -7,9 +7,9 @@
 export const SITE_URL = "https://www.josisimas.com.br";
 
 export const BUSINESS_NAME = "Josi Simas";
-export const BUSINESS_TAGLINE = "Micropigmentação & Maquiagem Permanente";
+export const BUSINESS_TAGLINE = "Micropigmentação & Estética";
 export const BUSINESS_DESCRIPTION =
-  "Josi Simas — especialista em micropigmentação e maquiagem permanente (PMU). " +
+  "Josi Simas — especialista em micropigmentação e estética. " +
   "Sobrancelhas, lábios e olhos com técnica, naturalidade e acabamento premium.";
 
 // Redes sociais

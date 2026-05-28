@@ -10,7 +10,7 @@ import {
 export const metadata: Metadata = {
   title: "Contato",
   description:
-    "Entre em contato para agendar sua avaliação de micropigmentação e maquiagem permanente.",
+    "Entre em contato para agendar sua avaliação de micropigmentação e estética.",
   alternates: { canonical: "/contato" },
 };
 

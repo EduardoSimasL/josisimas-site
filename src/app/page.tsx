@@ -17,8 +17,8 @@ export default function HomePage() {
             <span className="text-rose-deep">a sua naturalidade</span>
           </h1>
           <p className="mt-6 max-w-xl mx-auto text-lg text-ink-soft">
-            Micropigmentação e maquiagem permanente com técnica, segurança e um
-            olhar atento a cada detalhe do seu rosto.
+            Micropigmentação e estética com técnica, segurança e um olhar
+            atento a cada detalhe do seu rosto.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <a

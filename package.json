@@ -2,7 +2,7 @@
   "name": "josisimas-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Site institucional de Josi Simas — Micropigmentação e Maquiagem Permanente (PMU)",
+  "description": "Site institucional de Josi Simas — Micropigmentação e Estética",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

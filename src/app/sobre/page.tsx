@@ -4,7 +4,7 @@ import CTA from "@/components/CTA";
 
 export const metadata: Metadata = {
   title: "Sobre",
-  description: `Conheça ${BUSINESS_NAME}, especialista em micropigmentação e maquiagem permanente.`,
+  description: `Conheça ${BUSINESS_NAME}, especialista em micropigmentação e estética.`,
   alternates: { canonical: "/sobre" },
 };
 
@@ -19,13 +19,13 @@ export default function SobrePage() {
       <section className="mx-auto max-w-3xl px-6 pb-24 space-y-6 text-lg leading-relaxed text-ink-soft">
         <p>
           Apaixonada por realçar a beleza única de cada pessoa, {BUSINESS_NAME}{" "}
-          dedica-se à micropigmentação e à maquiagem permanente com foco em
-          naturalidade, harmonia e segurança.
+          dedica-se à micropigmentação e à estética com foco em naturalidade,
+          harmonia e segurança.
         </p>
         <p>
           {/* TODO: substituir pelo texto/biografia real da Josi */}
           Com formação especializada e constante atualização nas técnicas mais
-          atuais de PMU, oferece um atendimento atencioso do primeiro contato ao
+          atuais de micropigmentação, oferece um atendimento atencioso do primeiro contato ao
           acompanhamento pós-procedimento, sempre priorizando higiene e
           resultados duradouros.
         </p>

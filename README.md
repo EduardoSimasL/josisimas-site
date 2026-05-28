@@ -1,6 +1,6 @@
 # Josi Simas — Site
 
-Site institucional de **Josi Simas**, especialista em Micropigmentação e Maquiagem Permanente (PMU).
+Site institucional de **Josi Simas**, especialista em Micropigmentação e Estética.
 Instagram: [@josisimaspmu](https://instagram.com/josisimaspmu)
 
 ## Stack

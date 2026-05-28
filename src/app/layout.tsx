@@ -35,12 +35,15 @@ export const metadata: Metadata = {
   description: BUSINESS_DESCRIPTION,
   keywords: [
     "micropigmentação",
-    "maquiagem permanente",
     "PMU",
+    "estética",
     "sobrancelhas",
     "micropigmentação labial",
     "designer de sobrancelhas",
+    "micropigmentação de sobrancelhas",
     `micropigmentação ${CITY}`,
+    `PMU ${CITY}`,
+    `estética ${CITY}`,
     BUSINESS_NAME,
   ],
   authors: [{ name: BUSINESS_NAME }],
@@ -86,8 +89,8 @@ const jsonLd = {
   areaServed: CITY,
   knowsAbout: [
     "Micropigmentação de sobrancelhas",
-    "Maquiagem permanente",
     "Micropigmentação labial",
+    "Estética",
   ],
 };
 

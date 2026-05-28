@@ -41,6 +41,10 @@ export const metadata: Metadata = {
     "micropigmentação labial",
     "designer de sobrancelhas",
     "micropigmentação de sobrancelhas",
+    "tratamentos faciais",
+    "rejuvenescimento facial",
+    "tratamento de acne",
+    "tratamento de manchas",
     `micropigmentação ${CITY}`,
     `PMU ${CITY}`,
     `estética ${CITY}`,
@@ -90,6 +94,11 @@ const jsonLd = {
   knowsAbout: [
     "Micropigmentação de sobrancelhas",
     "Micropigmentação labial",
+    "Micropigmentação de pálpebras",
+    "Tratamentos faciais",
+    "Rejuvenescimento facial",
+    "Tratamento de acne",
+    "Tratamento de manchas",
     "Estética",
   ],
 };

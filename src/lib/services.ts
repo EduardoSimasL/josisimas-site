@@ -24,19 +24,20 @@ export const SERVICES: Service[] = [
       "ao contorno, com aparência leve e elegante.",
   },
   {
-    slug: "olhos",
-    title: "Delineado / Olhos",
-    short: "Olhar marcante sem depender da maquiagem do dia a dia.",
+    slug: "palpebras",
+    title: "Micropigmentação de Pálpebras",
+    short: "Olhar marcante e definido, sem depender de maquiagem.",
     description:
-      "Delineado discreto ou marcante, pensado para valorizar o olhar e " +
-      "facilitar a rotina, com total segurança.",
+      "Micropigmentação das pálpebras com efeito de delineado discreto ou " +
+      "marcante, valorizando o olhar e facilitando a rotina, com total segurança.",
   },
   {
-    slug: "lash-line",
-    title: "Lash Line & Detalhes",
-    short: "Preenchimento da linha dos cílios para um olhar mais denso.",
+    slug: "tratamentos-faciais",
+    title: "Tratamentos Faciais",
+    short: "Rejuvenescimento, acne e manchas para uma pele renovada.",
     description:
-      "Técnica delicada que adensa visualmente a base dos cílios, criando " +
-      "profundidade ao olhar de forma natural.",
+      "Procedimentos estéticos faciais voltados ao rejuvenescimento, ao " +
+      "controle da acne e à uniformização de manchas, devolvendo viço e " +
+      "saúde à pele.",
   },
 ];

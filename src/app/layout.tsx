@@ -9,6 +9,9 @@ import {
   CITY,
   STATE,
   ADDRESS,
+  GEO,
+  PHONE,
+  MAPS_URL,
 } from "@/lib/site";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -81,7 +84,8 @@ const jsonLd = {
   description: BUSINESS_DESCRIPTION,
   url: SITE_URL,
   image: `${SITE_URL}/og-image.jpg`,
-  sameAs: [INSTAGRAM_URL],
+  telephone: PHONE,
+  sameAs: [INSTAGRAM_URL, MAPS_URL],
   address: {
     "@type": "PostalAddress",
     streetAddress: ADDRESS.street,
@@ -90,6 +94,12 @@ const jsonLd = {
     postalCode: ADDRESS.postalCode,
     addressCountry: "BR",
   },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: GEO.latitude,
+    longitude: GEO.longitude,
+  },
+  hasMap: MAPS_URL,
   areaServed: CITY,
   knowsAbout: [
     "Micropigmentação de sobrancelhas",

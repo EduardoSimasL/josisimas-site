@@ -33,12 +33,25 @@ export const CITY = "Curitiba";
 export const STATE = "PR";
 
 // Endereço (usado no rodapé, contato e JSON-LD para SEO local)
+// ⚠️ Confirme bairro/CEP: o geocoder indicou Rebouças / 80250-190 para o nº 2895.
 export const ADDRESS = {
   street: "R. Brig. Franco, 2895 — Água Verde",
   city: "Curitiba",
   state: "PR",
   postalCode: "80220-100",
 } as const;
+
+// Coordenadas exatas da listagem no Google Maps (Josi Simas Micropigmentação).
+export const GEO = {
+  latitude: -25.4456659,
+  longitude: -49.2743705,
+} as const;
+
+// Link da listagem real no Google Maps (usado no botão de mapa e no JSON-LD).
+export const MAPS_URL = "https://maps.app.goo.gl/fQf6B59ttivBLkbd9";
+
+// Telefone em formato internacional (E.164) — reaproveita o WhatsApp.
+export const PHONE = `+${WHATSAPP_NUMBER}`;
 
 export const NAV_LINKS = [
   { href: "/", label: "Início" },

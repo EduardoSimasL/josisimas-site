@@ -5,6 +5,7 @@ import {
   INSTAGRAM_HANDLE,
   CONTACT_EMAIL,
   ADDRESS,
+  MAPS_URL,
 } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -56,9 +57,7 @@ export default function ContatoPage() {
         </a>
 
         <a
-          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-            `${ADDRESS.street}, ${ADDRESS.city} - ${ADDRESS.state}, ${ADDRESS.postalCode}`,
-          )}`}
+          href={MAPS_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-2xl border border-nude/60 bg-white/60 p-6 hover:border-rose-deep transition-colors"
